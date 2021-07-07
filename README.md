@@ -7,11 +7,11 @@ Using another operating system or Linux build will require modifying the install
    ***WARNING! This script will overwrite any existing virtual environment named 'venv' if one already exists!!!***
 
    ***Before using make sure to activate your existing virtual environment and 'pip freeze > requirments.txt'***
+   
+   ***The Django project you'd like to deploy must be in your home/username directory!!***
 
 If you've set up your project from the repository here:
 https://github.com/chparmley/Auto-Django
-
-  ***The project must be in your home/username directory!!***
 
    An assumed file structure for the install is as such:
    - container_folder
