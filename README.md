@@ -24,7 +24,7 @@ If you used the Auto-Django setup script it will be:
  2. `git clone https://github.com/chparmley/Nginx-Django-Deployment.git`
  3. `chmod +x ./install.sh`
  4. `./install.sh`
- 5. When asked for your project name use the same name as you did for Auto-Django.
+ 5. When asked for your project name use the same name as you did for Auto-Django.  
     If you did not use Auto-Django, the project name is the name of the folder containing your
     virtual environment. 
        example: if your structure is 'project/venv' then 'project' is your project name for the setup script.
