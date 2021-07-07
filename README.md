@@ -26,7 +26,7 @@ If you used the Auto-Django setup script it will be:
  4. `./install.sh`
  5. When asked for your project name use the same name as you did for Auto-Django.  
     If you did not use Auto-Django, the project name is the name of the folder containing your virtual environment.  
-       example: if your structure is 'project/venv' then 'project' is your project name for the setup script.
+    - EXAMPLE: if your structure is 'project/venv' then 'project' is your project name for the setup script.
        
 
  6. Enter your public ip(example: 54.25.36.254), or your domain name (example: your_domain.com)
