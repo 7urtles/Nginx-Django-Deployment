@@ -11,7 +11,7 @@ read website_name
 user_name=$(whoami)
 cd ..
 project_folder="${PWD##*/}"
-cd Install
+cd Nginx-Django-Deployment
 
 # Configuring setup files
 sed -i "s/user_name/$user_name/g" ./config/*
