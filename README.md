@@ -26,14 +26,23 @@ If you used the Auto-Django setup script it will be:
 
  1. Open a terminal inside the Auto-Django folder 
  2. `git clone https://github.com/chparmley/Nginx-Django-Deployment.git`
- 3. `chmod +x ./install.sh`
- 4. `./install.sh`
- 5. When asked for your project name use the same name as you did for Auto-Django.  
+ 3. `cd Nginx-Django-Deployment`
+ 4. `chmod +x ./install.sh`
+ 5. `./install.sh`
+ 
+ 6. When asked for your project name use the same name as you did for Auto-Django.  
     If you did not use Auto-Django, the project name is the name of the folder containing your virtual environment.  
-    - EXAMPLE: if your structure is 'project/venv' then 'project' is your project name for the setup script.
+    - EXAMPLE: if your structure is 'project/venv' then 'project' is your project name for the setup script.  
+    - 
+ *If you need to re-install some pip packages....*  
+ If not skip to step 10.
+ 
+ 7. `cd ..`
+ 8. `source venv/bin/activate`
+ 9. `pip install -r requirements.txt`
        
 
- 6. Enter your public ip( EXAMPLE: 54.25.36.254 ), or your domain name ( EXAMPLE: your_domain.com )
+ 10. Enter your public ip( EXAMPLE: 54.25.36.254 ), or your domain name ( EXAMPLE: your_domain.com )
 
- 7. Enter your domain or ip in your web browser.
+ 11. Enter your domain or ip in your web browser.
 
