@@ -27,6 +27,6 @@ Auto-Django-|->'Whatever_you_named_your_project'
    
    example: if your structure is 'project/venv' then 'project' is your project name for the setup script.
 
-5. enter the public ip(example: 54.25.36.254), or your domain name (example: your_domain.com)
+5. Enter your public ip(example: 54.25.36.254), or your domain name (example: your_domain.com)
 
-Enter your domain or ip in your web browser.
+6. Enter your domain or ip in your web browser.
