@@ -34,15 +34,9 @@ If you used the Auto-Django setup script it will be:
     If you did not use Auto-Django, the project name is the name of the folder containing your virtual environment.  
     - EXAMPLE: if your structure is 'project/venv' then 'project' is your project name for the setup script.  
     
- *If you need to re-install some pip packages do steps 7-9*  
- If not skip to step 10.
- 
- 7. `cd ..`
- 8. `source venv/bin/activate`
- 9. `pip install -r requirements.txt`
-       
+ *If you need to re-install some pip packages now is the time to do that*  
 
- 10. Enter your public ip( EXAMPLE: 54.25.36.254 ), or your domain name ( EXAMPLE: your_domain.com )
+ 7. Enter your public ip( EXAMPLE: 54.25.36.254 ), or your domain name ( EXAMPLE: your_domain.com )
 
- 11. Enter your domain or ip in your web browser.
+ 8. Enter your domain or ip in your web browser.
 
