@@ -15,9 +15,10 @@ https://github.com/chparmley/Auto-Django
             container_folder->project_folder->virtual_environment
 
 If you used the Auto-Django setup script it will be:  
-Auto-Django-|->'Whatever_you_named_your_project'  
-              |->README.md  
-              |->venv  
+Auto-Django
+-'Whatever_you_named_your_project'  
+  -README.md  
+  -venv  
 
  1. Open a terminal inside the Auto-Django folder 
  2. `git clone https://github.com/chparmley/Nginx-Django-Deployment.git`
