@@ -4,14 +4,14 @@ Script to build/configure and Ngninx server and deploy your Django project to an
 Using another operating system or Linux build will require modifying the install script!
 ----------------------------------------------------------------------------------------
 
-            WARNING! This script will overwrite any existing virtual environment named 'venv' if one already exists!!!
+   WARNING! This script will overwrite any existing virtual environment named 'venv' if one already exists!!!
 
-            Before using make sure to activate your existing virtual environment and 'pip freeze > requirments.txt'
+   Before using make sure to activate your existing virtual environment and 'pip freeze > requirments.txt'
 
 If you've set up your project from the repository here:
 https://github.com/chparmley/Auto-Django
 
-            An assumed file structure for the install is as such:
+   An assumed file structure for the install is as such:
             container_folder->project_folder->virtual_environment
 
 If you used the Auto-Django setup script it will be:
