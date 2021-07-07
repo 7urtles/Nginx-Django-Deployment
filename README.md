@@ -20,9 +20,9 @@ Auto-Django-|->'Whatever_you_named_your_project'
               |->venv  
 
  1. Open a terminal inside the Auto-Django folder 
- 2. ```git clone https://github.com/chparmley/Nginx-Django-Deployment.git```
- 3. ```chmod +x ./install.sh```
- 4. ```./install.sh```
+ 2. `git clone https://github.com/chparmley/Nginx-Django-Deployment.git`
+ 3. `chmod +x ./install.sh`
+ 4. `./install.sh`
  5. When asked for your project name use the same name as you did for Auto-Django.
     If you did not use Auto-Django, the project name is the name of the folder containing your
     virtual environment. 
