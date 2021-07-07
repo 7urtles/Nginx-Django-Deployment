@@ -24,8 +24,8 @@ source ./venv/bin/activate
 pip install django gunicorn psycopg2-binary
 deactivate
 
-sudo cp ./Install/sock_file /etc/systemd/system/gunicorn.socket
-sudo cp ./Install/service_file /etc/systemd/system/gunicorn.service
+sudo cp ./Install/config/sock_file /etc/systemd/system/gunicorn.socket
+sudo cp ./Install/config/service_file /etc/systemd/system/gunicorn.service
 
 sudo systemctl start gunicorn.socket
 sudo systemctl enable gunicorn.socket
