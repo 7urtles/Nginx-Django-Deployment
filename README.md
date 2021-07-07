@@ -14,7 +14,7 @@ https://github.com/chparmley/Auto-Django
    An assumed file structure for the install is as such:
             container_folder->project_folder->virtual_environment
 
-If you used the Auto-Django setup script it will be:
+If you used the Auto-Django setup script it will be:  
 Auto-Django-|->'Whatever_you_named_your_project'  
             |->README.md  
             |->venv  
