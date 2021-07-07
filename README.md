@@ -5,18 +5,20 @@ Using another operating system or Linux build will require modifying the install
 ----------------------------------------------------------------------------------------
 
 WARNING! This script will overwrite any existing virtual environment named 'venv' if one already exists!!!
+|
 Before using make sure to activate your existing virtual environment and 'pip freeze > requirments.txt'
-
+|
 If you've set up your project from the repository here:
 https://github.com/chparmley/Auto-Django
-
+|
 An assumed file structure for the install is as such:
 container_folder->project_folder->virtual_environment
-
+|
 If you used the Auto-Django setup script it will be:
 Auto-Django-|->'Whatever_you_named_your_project'
             |->README.md
             |->venv
+|
 
 1. Open a terminal inside the Auto-Django folder 
 2. git clone https://github.com/chparmley/Nginx-Django-Deployment.git
