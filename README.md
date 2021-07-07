@@ -31,7 +31,7 @@ If you used the Auto-Django setup script it will be:
  5. `./install.sh`
  
  6. When asked for your project name use the same name as you did for Auto-Django.  
-    - EXAMPLE: if your structure is 'project/venv' then 'project' is your project name for the setup script.  
+    - EXAMPLE: if your structure is 'project/venv' then 'project' is your project name.  
     
  *If you need to re-install from requirements.txt now is the time to do that*  
 
