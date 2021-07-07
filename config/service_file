@@ -11,7 +11,7 @@ ExecStart=/home/user_name/project_folder/venv/bin/gunicorn \
           --access-logfile - \
           --workers 3 \
           --bind unix:/run/gunicorn.sock \
-          spuncode.wsgi:application
+          project_name.wsgi:application
 
 [Install]
 WantedBy=multi-user.target
