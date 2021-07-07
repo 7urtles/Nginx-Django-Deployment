@@ -10,7 +10,7 @@ Using another operating system or Linux build will require modifying the install
    
    ***The Django project you'd like to deploy must be in your home/username directory!!***
 
-If you've set up your project from the repository here:
+Ideally you've set up your project from the repository here:
 https://github.com/chparmley/Auto-Django
 
    An assumed file structure for the install is as such:
