@@ -16,8 +16,8 @@ https://github.com/chparmley/Auto-Django
 
 If you used the Auto-Django setup script it will be:  
 Auto-Django-|->'Whatever_you_named_your_project'  
-            |->README.md  
-            |->venv  
+              |->README.md  
+              |->venv  
 
 
     1. Open a terminal inside the Auto-Django folder 
