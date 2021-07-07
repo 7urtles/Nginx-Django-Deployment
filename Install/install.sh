@@ -30,7 +30,7 @@ sudo cp ./Install/config/service_file /etc/systemd/system/gunicorn.service
 sudo systemctl start gunicorn.socket
 sudo systemctl enable gunicorn.socket
 
-sudo cp ./Install/nginx_config /etc/nginx/sites-available/$project_name
+sudo cp ./Install/config/nginx_config /etc/nginx/sites-available/$project_name
 sudo ln -s /etc/nginx/sites-available/$project_name /etc/nginx/sites-enabled
 
 sudo systemctl restart gunicorn
