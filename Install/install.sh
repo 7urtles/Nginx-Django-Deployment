@@ -1,7 +1,10 @@
 #!/usr/bin/bash
 
-project_name="spuncode"
-website_name="spuncode.com"
+echo "Enter project name (Folder name containing virtual environment)"
+read project_name
+
+echo "Enter website IP address, or Domain Name"
+read website_name
 
 
 
